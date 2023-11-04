@@ -6,16 +6,15 @@ With the increased use of data-driven approaches and machine learning-based meth
 The codes are provided as Jupyter Notebook files. To reproduce the results, run the .ipynb files. 
 
 ## Requirements
-keras                   2.6.0
-tensorflow            	2.6.0
-pyro-api                0.1.2
-pyro-ppl                1.8.5
-torchbnn                1.2
-torch                   2.0.1
-pandas                  1.5.3
-numpy                   1.23.5
-scikit-learn            1.2.2
-numpy                   1.23.5
+keras  2.6.0  
+tensorflow 2.6.0  
+pyro-api 0.1.2  
+pyro-ppl 1.8.5  
+torchbnn 1.2  
+torch 2.0.1  
+pandas 1.5.3  
+numpy 1.23.5  
+scikit-learn 1.2.2  
 
 ## License
 <a href="License - MIT.txt">MIT License</a>
