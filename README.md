@@ -23,5 +23,5 @@ scikit-learn 1.2.2
 This work was supported by the University of Idaho – Center for Advanced Energy Study (CAES) Seed Funding FY23 Grant.
 
 ## Contact or Questions
-<a href="https://www.webpages.uidaho.edu/vakanski/">A. Vakanski</a>, e-mail: vakanski at uidaho.edu.
+<a href="https://www.webpages.uidaho.edu/vakanski/">A. Vakanski</a>, e-mail: vakanski at uidaho.edu
 
