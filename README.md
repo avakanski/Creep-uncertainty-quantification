@@ -12,7 +12,7 @@ This repository is organized as follows:
 - **Physics-Informed Machine Learning directory**: contains code for predicting creep rupture life via Physics-Informed Machine Learning methods based on integrating knowledge from governing laws for creep modeling into data-driven approaches. Implementation codes are provided for the best-performing methods for uncertainty quantification, which include Gaussian Process Regression, Variational Inference BNNs, and Markov Chain Monte Carlo BNNs. For comparison, the implementation codes for standard Neural Networks with deterministic network parameters is also provided.
 - **Active Learning directory**: contains code for an Active Learning task for predicting creep rupture life, where the learning objective is to iteratively select data points with the highest epistemic uncertainty and diversity for faster model training with fewer data points. Implementation codes are provided for the best-performing methods for uncertainty quantification, including Gaussian Process Regression, Variational Inference BNNs, and Markov Chain Monte Carlo BNNs.
 
-## Data and Evaluation Metrics
+## 📊 Data and Evaluation Metrics
 The implemented methods for predicting creep rupture life are evaluated on three creep datasets: 
 - Stainless Steel (SS) 316 alloys dataset (from the National Institute for Materials Science), containing 617 samples with 20 features per sample.
 - Nickel-based superalloys dataset (from <a href="https://www.sciencedirect.com/science/article/pii/S0927025622000386">Han et al., 2022</a>), containing 153 samples with 15 features per sample.
@@ -45,12 +45,12 @@ If you use the codes or the methods in your work, please cite the following <a h
     primaryClass={cs.LG}
     }
 
-## License
+## 🚩 License
 <a href="License - MIT.txt">MIT License</a>
 
-## Acknowledgments
+## 👏 Acknowledgments
 This work was supported by the University of Idaho – Center for Advanced Energy Study (CAES) Seed Funding FY23 Grant.
 
-## Contact or Questions
+## ✉️ Contact or Questions
 <a href="https://www.webpages.uidaho.edu/vakanski/">A. Vakanski</a>, e-mail: vakanski at uidaho.edu
 
