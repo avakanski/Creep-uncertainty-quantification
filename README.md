@@ -6,6 +6,20 @@ With the increased use of data-driven approaches and machine learning-based meth
 
 In this work, we introduce a physics-informed Bayesian Neural Networks (BNNs) approach for UQ, which integrates knowledge from governing laws in materials to guide the models toward physically consistent predictions. To evaluate the approach, we present case studies for predicting the creep rupture life of steel alloys. Experimental validation with three datasets of creep tests demonstrates that this method produces point predictions and uncertainty estimations that are competitive or exceed the performance of conventional UQ methods such as Gaussian Process Regression. Additionally, we evaluate the suitability of the proposed approach for UQ in an active learning scenario and report competitive performance. The most promising framework for creep life prediction is BNNs based on Markov Chain Monte Carlo approximation of the posterior distribution of network parameters, as it provided more reliable results in comparison to BNNs based on variational inference approximation or related NNs with probabilistic outputs.
 
+## Repository Organization
+This repository is organized as follows:
+- Uncertainty Quantification directory: contains codes for predicting creep rupture life of metal materials with Machine Learning methods. The objective is to calculate both single-point estimates and uncertainty estimates for the predicted creep rupture life. The codes provide implementation for 8 Machine Learning methods, which include conventional Machine Learning approaches (Quantile Regression, Natural Gradient Boosting Regression, Gaussian Process Regression), Neural Networks-based approaches with deterministic parameters (Deep Ensemble, Monte Carlo Dropout), and Neural Network-based approaches with probabilistic parameters (Variational Inference BNNs, Markov Chain Monte Carlo BNNs). For comparison, implementation code for standard Neural Networks with deterministic parameters that output single-point prediction is also provided.
+- Physics-Informed Machine Learning directory: contains code for predicting creep rupture life via Physics-Informed Machine Learning via integrating knowledge from governing laws for creep modeling into data-driven predictive methods. Implementation codes are provided for the best-performing methods for uncertainty quantification, which include Gaussian Process Regression, Variational Inference BNNs, and Markov Chain Monte Carlo BNNs. For comparison, code for standard Neural Networks is also provided.
+- Active Learning directory: contains code for an active learning task for predicting creep rupture life, where the objective of the learning task is to iteratively select data points with the highest epistemic uncertainty and diversity for faster model training with fewer data points. Implementation codes are provided for the best-performing methods for uncertainty quantification, including Gaussian Process Regression, Variational Inference BNNs, and Markov Chain Monte Carlo BNNs.
+
+## Data and Evaluation Metrics
+The methods for predicting creep rupture life are evaluated on three creep datasets: 
+- Stainless Steel (SS) 316 alloys dataset (from National Institute for Materials Science), contains 617 samples with 20 features per sample.
+- Nickel-based superalloys dataset (from <a href="https://www.sciencedirect.com/science/article/pii/S0927025622000386">Han et al., 2022</a>), contains 153 samples with 15 features per sample.
+- Titanium alloys dataset (from from <a href="https://pubs.aip.org/aip/aml/article/1/1/016102/2878729/Machine-learning-assisted-interpretation-of-creep">Swetlana et al., </a>), contains 177 samples with 24 features per sample.
+
+The set of used performance metrics for evaluating the implemented methods include predictive accuracy metrics (Pearson Correlation Coefficient, $R^2$ Coefficient of Determination, Root-mean-square Deviation, Mean Absolute Error) and uncertainty quantification metrics (Coverage, Mean Interval Width, Composite Metric).
+
 ## Use
 The codes are provided as Jupyter Notebook files. To reproduce the results, run the .ipynb files. 
 
