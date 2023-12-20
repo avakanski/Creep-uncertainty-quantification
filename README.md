@@ -20,7 +20,7 @@ The implemented methods for predicting creep rupture life are evaluated on three
 
 The set of used performance metrics for evaluating the implemented methods include predictive accuracy metrics (Pearson Correlation Coefficient, $R^2$ Coefficient of Determination, Root-mean-square Deviation, Mean Absolute Error) and uncertainty quantification metrics (Coverage, Mean Interval Width, Composite Metric).
 
-## Use
+## ▶️ Use
 The codes are provided as Jupyter Notebook files. To reproduce the results, run the .ipynb files. 
 
 ## Requirements
