@@ -23,7 +23,7 @@ The set of used performance metrics for evaluating the implemented methods inclu
 ## ▶️ Use
 The codes are provided as Jupyter Notebook files. To reproduce the results, run the .ipynb files. 
 
-## Requirements
+## 🔨 Requirements
 keras  2.6.0  
 tensorflow 2.6.0  
 pyro-ppl 1.8.5  
