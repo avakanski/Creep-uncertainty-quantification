@@ -13,10 +13,10 @@ This repository is organized as follows:
 - **Active Learning directory**: contains code for an Active Learning task for predicting creep rupture life, where the learning objective is to iteratively select data points with the highest epistemic uncertainty and diversity for faster model training with fewer data points. Implementation codes are provided for the best-performing methods for uncertainty quantification, including Gaussian Process Regression, Variational Inference BNNs, and Markov Chain Monte Carlo BNNs.
 
 ## Data and Evaluation Metrics
-The methods for predicting creep rupture life are evaluated on three creep datasets: 
-- Stainless Steel (SS) 316 alloys dataset (from National Institute for Materials Science), contains 617 samples with 20 features per sample.
-- Nickel-based superalloys dataset (from <a href="https://www.sciencedirect.com/science/article/pii/S0927025622000386">Han et al., 2022</a>), contains 153 samples with 15 features per sample.
-- Titanium alloys dataset (from <a href="https://pubs.aip.org/aip/aml/article/1/1/016102/2878729/Machine-learning-assisted-interpretation-of-creep">Swetlana et al., 2023, </a>), contains 177 samples with 24 features per sample.
+The implemented methods for predicting creep rupture life are evaluated on three creep datasets: 
+- Stainless Steel (SS) 316 alloys dataset (from the National Institute for Materials Science), containing 617 samples with 20 features per sample.
+- Nickel-based superalloys dataset (from <a href="https://www.sciencedirect.com/science/article/pii/S0927025622000386">Han et al., 2022</a>), containing 153 samples with 15 features per sample.
+- Titanium alloys dataset (from <a href="https://pubs.aip.org/aip/aml/article/1/1/016102/2878729/Machine-learning-assisted-interpretation-of-creep">Swetlana et al., 2023</a>), containing 177 samples with 24 features per sample.
 
 The set of used performance metrics for evaluating the implemented methods include predictive accuracy metrics (Pearson Correlation Coefficient, $R^2$ Coefficient of Determination, Root-mean-square Deviation, Mean Absolute Error) and uncertainty quantification metrics (Coverage, Mean Interval Width, Composite Metric).
 
