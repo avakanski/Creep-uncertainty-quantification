@@ -17,18 +17,16 @@ pandas 1.5.3
 numpy 1.23.5  
 scikit-learn 1.2.2  
 
-# Citation
-If you use the codes or the methods in your work, please cite the following <a href="https://ieeexplore.ieee.org/abstract/document/8957502">article</a>:   
+## Citation
+If you use the codes or the methods in your work, please cite the following <a href="https://arxiv.org/abs/2311.02495">article</a>:   
 
-    @ARTICLE{Liao2020,
-    title={A Deep Learning Framework for Assessing Physical Rehabilitation Exercises},
-    author={Liao, Y. and Vakanski, A. and Xian, M.},
-    journal={IEEE Transactions on Neural Systems and Rehabilitation Engineering}, 
-    year={2020},
-    month={Feb.},
-    volume={28},
-    number={2}
-    pages={468-477},
+    @ARTICLE{Li2023,
+    title={Uncertainty Quantification in Multivariable Regression for Material Property Prediction with Bayesian Neural Networks},
+    author={Longze Li and Jiang Chang and Aleksandar Vakanski and Yachun Wang and Tiankai Yao and Min Xian},
+    year={2023},
+    eprint={2311.02495},
+    archivePrefix={arXiv},
+    primaryClass={cs.LG}
     }
 
 ## License
