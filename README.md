@@ -36,13 +36,17 @@ scikit-learn 1.2.2
 ## 📖 Citation
 If you use the codes or the methods in your work, please cite the following <a href="https://arxiv.org/abs/2311.02495">article</a>:   
 
-    @ARTICLE{Li2023,
-    title={Uncertainty Quantification in Multivariable Regression for Material Property Prediction with Bayesian Neural Networks},
-    author={Longze Li and Jiang Chang and Aleksandar Vakanski and Yachun Wang and Tiankai Yao and Min Xian},
-    year={2023},
-    eprint={2311.02495},
-    archivePrefix={arXiv},
-    primaryClass={cs.LG}
+    @ARTICLE{Li2024,
+    TITLE={Uncertainty Quantification in Multivariable Regression for Material Property Prediction with Bayesian Neural Networks},
+    AUTHOR={Longze Li and Jiang Chang and Aleksandar Vakanski and Yachun Wang and Tiankai Yao and Min Xian},
+    JOURNAL = {Scientific Reports},
+    YEAR = {2024},
+    VOLUME = {14},
+    ISSUE = {1},
+    ARTICLE-NUMBER = {10543},
+    URL = {https://doi.org/10.1038/s41598-024-61189-x},
+    ISSN = {2045-2322},
+    DOI = {10.1038/s41598-024-61189-x}
     }
 
 ## 🚩 License
