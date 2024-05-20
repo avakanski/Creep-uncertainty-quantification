@@ -1,6 +1,6 @@
 # Uncertainty Quantification in Multivariable Regression for Material Property Prediction with Bayesian Neural Networks
 
-[![arXiv](https://img.shields.io/badge/arXiv-2311.02495-b31b1b)](https://arxiv.org/abs/2311.02495) [![Scientific Reports](https://img.shields.io/badge/Scientific_Reports-DOI%3A_10.1038-brightgreen.svg)](https://doi.org/10.1038/s41598-024-61189-x)
+[![arXiv](https://img.shields.io/badge/arXiv-2311.02495-b31b1b)](https://arxiv.org/abs/2311.02495) [![Scientific Reports](https://img.shields.io/badge/Scientific_Reports-DOI%3A_10.1038/s41598-024-61189-x-brightgreen.svg)](https://doi.org/10.1038/s41598-024-61189-x)
 
 With the increased use of data-driven approaches and machine learning-based methods in material science, the importance of reliable uncertainty quantification (UQ) of the predicted variables for informed decision-making cannot be overstated. UQ in material property prediction poses unique challenges, including the multi-scale and multi-physics nature of materials, intricate interactions between numerous factors, limited availability of large curated datasets, etc. 
 
