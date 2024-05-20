@@ -53,7 +53,8 @@ If you use the codes or the methods in your work, please cite the following <a h
 <a href="License - MIT.txt">MIT License</a>
 
 ## 👏 Acknowledgments
-This work was supported by the University of Idaho – Center for Advanced Energy Study (CAES) Seed Funding FY23 Grant.
+This work was supported by the University of Idaho – Center for Advanced Energy Study (CAES) Seed Funding FY23 Grant. Tis work was also supported through the INL Laboratory Directed Research & Development
+(LDRD) Program under DOE Idaho Operations Ofce Contract DE-AC07-05ID14517 (project tracking number 23A1070-069FP). 
 
 ## ✉️ Contact or Questions
 <a href="https://www.webpages.uidaho.edu/vakanski/">A. Vakanski</a>, e-mail: vakanski at uidaho.edu
